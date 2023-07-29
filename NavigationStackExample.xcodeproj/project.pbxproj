@@ -71,6 +71,7 @@
 		961E35112A7517D300AEC7D3 /* Feature1_1ViewRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature1_1ViewRoute.swift; sourceTree = "<group>"; };
 		961E35132A75196800AEC7D3 /* Feature1ViewModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature1ViewModelManager.swift; sourceTree = "<group>"; };
 		961E35152A752A3E00AEC7D3 /* UINavigationController+viewDidLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+viewDidLoad.swift"; sourceTree = "<group>"; };
+		961E351A2A75320500AEC7D3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +88,7 @@
 		961E34B82A7432C400AEC7D3 = {
 			isa = PBXGroup;
 			children = (
-				961E35152A752A3E00AEC7D3 /* UINavigationController+viewDidLoad.swift */,
+				961E351A2A75320500AEC7D3 /* README.md */,
 				961E34C32A7432C400AEC7D3 /* NavigationStackExample */,
 				961E34C22A7432C400AEC7D3 /* Products */,
 			);
@@ -104,16 +105,11 @@
 		961E34C32A7432C400AEC7D3 /* NavigationStackExample */ = {
 			isa = PBXGroup;
 			children = (
+				961E35192A7531F000AEC7D3 /* App */,
+				961E35182A7531E500AEC7D3 /* Features */,
 				961E34FB2A7487A300AEC7D3 /* Core */,
-				961E34DB2A7485A600AEC7D3 /* Feature2 */,
-				961E34D62A74853000AEC7D3 /* Feature1 */,
-				961E34C42A7432C400AEC7D3 /* NavigationStackExampleApp.swift */,
 				961E34C82A7432C600AEC7D3 /* Assets.xcassets */,
 				961E34CA2A7432C600AEC7D3 /* Preview Content */,
-				961E34D22A74352100AEC7D3 /* NavigationLazyView.swift */,
-				961E34F72A74878200AEC7D3 /* ContentViewRoute.swift */,
-				961E34F92A74879100AEC7D3 /* ContentViewModel.swift */,
-				961E34D42A74765D00AEC7D3 /* ContentView.swift */,
 			);
 			path = NavigationStackExample;
 			sourceTree = "<group>";
@@ -184,6 +180,7 @@
 		961E34FB2A7487A300AEC7D3 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				961E35172A7531CF00AEC7D3 /* Navigation */,
 				961E34FC2A7487AB00AEC7D3 /* Domain */,
 			);
 			path = Core;
@@ -223,6 +220,35 @@
 				961E350D2A7517A200AEC7D3 /* Feature1_1_1View.swift */,
 			);
 			path = Feature1_1_1;
+			sourceTree = "<group>";
+		};
+		961E35172A7531CF00AEC7D3 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				961E34D22A74352100AEC7D3 /* NavigationLazyView.swift */,
+				961E35152A752A3E00AEC7D3 /* UINavigationController+viewDidLoad.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		961E35182A7531E500AEC7D3 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				961E34DB2A7485A600AEC7D3 /* Feature2 */,
+				961E34D62A74853000AEC7D3 /* Feature1 */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		961E35192A7531F000AEC7D3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				961E34F72A74878200AEC7D3 /* ContentViewRoute.swift */,
+				961E34F92A74879100AEC7D3 /* ContentViewModel.swift */,
+				961E34D42A74765D00AEC7D3 /* ContentView.swift */,
+				961E34C42A7432C400AEC7D3 /* NavigationStackExampleApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
